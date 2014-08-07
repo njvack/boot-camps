@@ -59,8 +59,7 @@ We'll focus on two overarching concepts that are important to any programming la
 
 ## iPython
 
-Please follow the link.
-[iPython Intro](../ipython/Readme.md)
+Please follow the link to the [iPython Intro](../ipython/Readme.md).
 
 ## Back to Write Code for People
 
