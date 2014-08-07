@@ -513,39 +513,6 @@ dictionary, whereas a list cannot as we will see in a moment.
 ***Exercise***
 Display the second element of the tuple with two different slices.
 
-## Sets
-
-Most introductory python courses do not go over sets this early (or at
-all), and in the interest of time we're no different. The python set
-type is a useful data type similar to the idea of a mathematical set:
-it is an unordered collection of unique things.
-
-Consider the following examples if you're interested in the useful
-sorts of things you can do with python sets:
-
-```
-In [3] fruit = set(["apple", "banana", "pear", "banana"]) #You have to use a list to create a set.
-```
-
-Since sets contain only unique items, there's only one banana in the set
-fruit.
-
-You can do things like intersections, unions on sets just like in
-math. Here's an example of an intersection of two sets (the common items in
-both sets).
-
-```
-In [4]: first_bowl = set(["apple", "banana", "pear", "peach"])
-
-In [5]: second_bowl = set(["peach", "watermelon", "orange", "apple"])
-
-In [6]: set.intersection(first_bowl, second_bowl)
-Out[6]: set(['apple', 'peach'])
-```
-
-You can check out more info using the help docs. We won't be returning to
-sets, but it's good for you to know they exist.
-
 ## Dictionaries
 
 Recall our variable data_list which contained our current-voltage data
